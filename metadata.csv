@@ -1,0 +1,9 @@
+Species: Enterococcus_faecium_E745						
+accession	bp	genome_representation	assembly_date	assembly_method	genome_coverage	sequencing_technology
+CP014529	2765010	complete_genome	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+CP014530	223688	plasmid_pl1	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+CP014531	32423	plasmid_pl2	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+CP014532	9310	plasmid_pl3	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+CP014533	17254	plasmid_pl4	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+CP014534	55167	plasmid_pl5	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+CP014535	65558	plasmid_pl6	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
