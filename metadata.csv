@@ -1,4 +1,24 @@
+
 Species: Enterococcus_faecium_E745						
+
+OWN FILES: 
+
+/proj/g2018003/nobackup/private/zhang_2017/DNA_raw_data/PacBio				Includes sequence files		No information from ebi.ac.uk - PRJEB19025 (from article)
+m131023_233432_42174_c100519312550000001823081209281335_s1_X0.1.subreads.fastq.gz	
+m131023_233432_42174_c100519312550000001823081209281335_s1_X0.2.subreads.fastq.gz
+m131023_233432_42174_c100519312550000001823081209281335_s1_X0.3.subreads.fastq.gz
+m131024_200535_42174_c100563672550000001823084212221342_s1_p0.1.subreads.fastq.gz
+m131024_200535_42174_c100563672550000001823084212221342_s1_p0.2.subreads.fastq.gz
+m131024_200535_42174_c100563672550000001823084212221342_s1_p0.3.subreads.fastq.gz
+
+/proj/g2018003/nobackup/private/zhang_2017/RNA_raw_data		Platform: Illumina HiSeq 2500
+File name			File name (Original)		Strand		Strategy	Layout		Spots(Read count)		Base count		Size		GC content	Published
+RNA-Seq_Serum_F.fastq.gz	ERR1797969_pass_1.fastq.gz	Forward		RNA-seq		Paired		25,937,368			5,187,473,600bp		3.3G		44.9%		2017-01-18
+RNA-Seq_Serum_R.fastq.gz	ERR1797969_pass_2.fastq.gz	Forward		RNA-seq		Paired		
+
+
+
+ARTICLE: 
 accession	bp	genome_representation	assembly_date	assembly_method	genome_coverage	sequencing_technology
 CP014529	2765010	complete_genome	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
 CP014530	223688	plasmid_pl1	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
@@ -7,3 +27,4 @@ CP014532	9310	plasmid_pl3	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_Il
 CP014533	17254	plasmid_pl4	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
 CP014534	55167	plasmid_pl5	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
 CP014535	65558	plasmid_pl6	2014	Celera_Assembler_v8.1_Spades_v3.0	80.0x	Pacbio_IlluminaHiSeq_OxfordNanoporeMinION
+
