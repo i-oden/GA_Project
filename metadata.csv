@@ -11,7 +11,7 @@ m131024_200535_42174_c100563672550000001823084212221342_s1_p0.1.subreads.fastq.g
 m131024_200535_42174_c100563672550000001823084212221342_s1_p0.2.subreads.fastq.gz
 m131024_200535_42174_c100563672550000001823084212221342_s1_p0.3.subreads.fastq.gz
 
-/proj/g2018003/nobackup/private/zhang_2017/RNA_raw_data		Platform: Illumina HiSeq 2500
+/proj/g2018003/nobackup/private/zhang_2017/RNA_raw_data		Platform: Illumina HiSeq 2500		Medium: Human serum
 File name			File name (Original)		Strand		Strategy	Layout		Spots(Read count)		Base count		Size		GC content	Published
 RNA-Seq_Serum_F.fastq.gz	ERR1797969_pass_1.fastq.gz	Forward		RNA-seq		Paired		25,937,368			5,187,473,600bp		3.3G		44.9%		2017-01-18
 RNA-Seq_Serum_R.fastq.gz	ERR1797969_pass_2.fastq.gz	Forward		RNA-seq		Paired		
