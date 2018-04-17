@@ -1,0 +1,30 @@
+12.04.2018
+Uppmax is under maintenance. No jobs can be started.
+
+---------------------------------------------------------------------------------------------------
+16.04.2018
+Uppmax is under maintenance. Crex is down --> Project directories and module system not working.
+--> cannot access the files. 
+
+Plan of first things to do when UPPMAX is upp and running again:
+1. Find the files:
+	cd /proj/g2018003/nobackup/private/ etc 
+2. Make appropriate directories 
+	a) cd data
+	b) mkdir raw_data
+	c) mkdir trimmed_data
+	d) cd raw_data
+	e) mkdir DNA
+	f) cd DNA
+	g) mkdir PacBio
+	h) cd ..
+	i) etc
+3. Rename the files as they are called in the metadata.csv file and create a link to the git directory
+	ln -s /proj/g2018003/nobackup/private/and_so_on_to_the_original_file /GA_Project/directory_to_new_renamed_file
+4. Create batch script for assembly
+	Created - has to be finished: 
+		1_genome_assembly.sh
+5. Connect to a working node 
+	salloc -A g2018003 -p core -n 1 -t 08:00:00(?) --reservation=g2018003_2
+6. Send job to uppmax
+	sbatch 1_genome_assembly.sh

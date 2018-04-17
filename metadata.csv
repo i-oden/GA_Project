@@ -5,18 +5,18 @@ OWN FILES:
 
 /proj/g2018003/nobackup/private/zhang_2017/DNA_raw_data/PacBio				Includes sequence files		No information from ebi.ac.uk - PRJEB19025 (from article)
 File name				File name (Original)
-Genome_PacBio_subread_s1_X0.1.fastq.gz	m131023_233432_42174_c100519312550000001823081209281335_s1_X0.1.subreads.fastq.gz	
-Genome_PacBio_subread_s1_X0.2.fastq.gz	m131023_233432_42174_c100519312550000001823081209281335_s1_X0.2.subreads.fastq.gz
-Genome_PacBio_subread_s1_X0.3.fastq.gz	m131023_233432_42174_c100519312550000001823081209281335_s1_X0.3.subreads.fastq.gz
-Genome_PacBio_subread_s1_p0.1.fastq.gz	m131024_200535_42174_c100563672550000001823084212221342_s1_p0.1.subreads.fastq.gz
-Genome_PacBio_subread_s1_p0.2.fastq.gz	m131024_200535_42174_c100563672550000001823084212221342_s1_p0.2.subreads.fastq.gz
-Genome_PacBio_subread_s1_p0.3.fastq.gz	m131024_200535_42174_c100563672550000001823084212221342_s1_p0.3.subreads.fastq.gz
+1_Genome_PacBio_subread_s1_X0.1.fastq.gz	m131023_233432_42174_c100519312550000001823081209281335_s1_X0.1.subreads.fastq.gz	
+2_Genome_PacBio_subread_s1_X0.2.fastq.gz	m131023_233432_42174_c100519312550000001823081209281335_s1_X0.2.subreads.fastq.gz
+3_Genome_PacBio_subread_s1_X0.3.fastq.gz	m131023_233432_42174_c100519312550000001823081209281335_s1_X0.3.subreads.fastq.gz
+4_Genome_PacBio_subread_s1_p0.1.fastq.gz	m131024_200535_42174_c100563672550000001823084212221342_s1_p0.1.subreads.fastq.gz
+5_Genome_PacBio_subread_s1_p0.2.fastq.gz	m131024_200535_42174_c100563672550000001823084212221342_s1_p0.2.subreads.fastq.gz
+6_Genome_PacBio_subread_s1_p0.3.fastq.gz	m131024_200535_42174_c100563672550000001823084212221342_s1_p0.3.subreads.fastq.gz
 
 
 /proj/g2018003/nobackup/private/zhang_2017/RNA_raw_data		Data: RAW	Platform: Illumina HiSeq 2500		Medium: Human serum
 File name			File name (Original)		Strand		Strategy	Layout		Spots(Read count)		Base count		Size		GC content	Published
-RNA-Seq_Serum_F.fastq.gz	ERR1797969_pass_1.fastq.gz	Forward		RNA-seq		Paired		25,937,368			5,187,473,600bp		3.3G		44.9%		2017-01-18
-RNA-Seq_Serum_R.fastq.gz	ERR1797969_pass_2.fastq.gz	Reverse		RNA-seq		Paired		
+1_RNA-Seq_Serum_F.fastq.gz	ERR1797969_pass_1.fastq.gz	Forward		RNA-seq		Paired		25,937,368			5,187,473,600bp		3.3G		44.9%		2017-01-18
+2_RNA-Seq_Serum_R.fastq.gz	ERR1797969_pass_2.fastq.gz	Reverse		RNA-seq		Paired		
 
 
 /proj/g2018003/nobackup/private/zhang_2017/RNA_trimmed_reads	Data: TRIMMED	Platform: Illumina HiSeq 2500
