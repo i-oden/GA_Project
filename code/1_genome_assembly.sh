@@ -9,11 +9,12 @@
 #SBATCH --mail-user ina.oden_osterbo.5951@student.uu.se
 
 # Load modules
-module load bioinfo-tools
+module load bioinfo-tools canu/1.7
 
 # Commands 
 canu \
--p *name* \
--d *output directory* \
+-p efaecium \
+-d  *output file*\
 genomeSize=** \
 -pacbio-raw *input file directory* 
+-pacbio-raw *
