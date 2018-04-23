@@ -36,4 +36,16 @@ Uppmax is under maintenance. Crex is down --> Project directories and module sys
 
 Fixing of canu script.
 
+--------------------------------------------------------------------------------------------------
+19.04.2018 
+Missing text in log file from this date. 
 
+1. Assembly batch script finished
+2. Sent the assembly batch script
+3. Got an email about timed out assembly - but may still have finished? 
+
+---------------------------------------------------------------------------------------------------
+23.04.2018
+Missing text in log file from 19.04.2018 noticed. 
+
+1. Checking slurm-file slurm-2751120.out to see whether I need to send it again... 
