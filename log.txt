@@ -52,4 +52,17 @@ Missing text in log file from 19.04.2018 noticed.
 2. Fixed the directory error in the batch script. 
 3. Moved the files to the correct directory. 
 	GA_Project/data/assembled_data/DNA/PacBio/
+4. Deleted all output files.
+5. Resent the assembly batch script
+	Finished!
 
+The next step is to evaluate the assembly! 
+--> QUAST and manual! 
+6. QUAST on... 
+	file: efaecium.contigs.fasta
+	Commands: 
+		python quast.py [options] <contig_file(s)>
+		
+		-o (output directory) = /home/inod5951/GA_Project/data/assembled_data/DNA/PacBio/QUAST_eval
+		--min-contig or -m (minimum contig length used) = 
+		--labels or -l (human-readable assembly names) = "Canu1.7_PB_DNA_Assembly"
