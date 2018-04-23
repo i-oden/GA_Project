@@ -49,3 +49,7 @@ Missing text in log file from this date.
 Missing text in log file from 19.04.2018 noticed. 
 
 1. Checking slurm-file slurm-2751120.out to see whether I need to send it again... 
+2. Fixed the directory error in the batch script. 
+3. Moved the files to the correct directory. 
+	GA_Project/data/assembled_data/DNA/PacBio/
+
