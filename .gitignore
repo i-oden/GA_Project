@@ -5,6 +5,6 @@ data/assembled_data/DNA/*
 !data/assembled_data/DNA/PacBio/
 data/assembled_data/DNA/PacBio/*
 !data/assembled_data/DNA/PacBio/efaecium.contigs.fasta
-
 data/raw_data/
 data/trimmed_data/
+/home/inus/GA_Project/quast-4.6.3/*
