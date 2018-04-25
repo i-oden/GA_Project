@@ -58,7 +58,7 @@ Missing text in log file from 19.04.2018 noticed.
 
 The next step is to evaluate the assembly! 
 --> QUAST and manual! 
-6. QUAST on... 
+6. QUAST on... (ON OWN COMPUTER!) 
 	file: efaecium.contigs.fasta
 	Commands: 
 		python quast.py [options] <contig_file(s)>
@@ -81,3 +81,4 @@ The next step is to evaluate the assembly!
 CHECK NEXT TIME:
 Seems strange that the evaluation was so fast, and that the results say that the total length of the genome is 3 142 355 bp, when it's actually 2.7 m something bp. - Maybe will be corrected with illumina in extra steps.
 
+---------------------------------------------------------------------------------------------------
