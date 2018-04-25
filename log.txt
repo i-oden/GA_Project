@@ -66,3 +66,18 @@ The next step is to evaluate the assembly!
 		-o (output directory) = /home/inod5951/GA_Project/data/assembled_data/DNA/PacBio/QUAST_eval
 		--min-contig or -m (minimum contig length used) = 
 		--labels or -l (human-readable assembly names) = "Canu1.7_PB_DNA_Assembly"
+
+	Output: 
+		report.txt	assessment summary in plain text format
+		report.tsv	tab-separated version of the summary, suitable for spreadsheets
+		report.tex	LaTeX version of the summary
+		icarus.html	Icarus main manu with links to interactive viewers
+		report.pdf	all other plots combined with all tables 
+		report.html	HTML version of the report with interactive plots inside
+		contigs_reports/
+			misassemblies_report	Detailed report on misassemblies
+			unaligned_report	Detailed report on unaligned and partially unaligned contigs
+
+CHECK NEXT TIME:
+Seems strange that the evaluation was so fast, and that the results say that the total length of the genome is 3 142 355 bp, when it's actually 2.7 m something bp. - Maybe will be corrected with illumina in extra steps.
+
