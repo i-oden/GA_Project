@@ -15,8 +15,8 @@ File name				File name (Original)
 
 /proj/g2018003/nobackup/private/zhang_2017/RNA_raw_data		Data: RAW	Platform: Illumina HiSeq 2500		Medium: Human serum
 File name			File name (Original)		Strand		Strategy	Layout		Spots(Read count)		Base count		Size		GC content	Published
-1_RNA-Seq_Serum_F.fastq.gz	ERR1797969_pass_1.fastq.gz	Forward		RNA-seq		Paired		25,937,368			5,187,473,600bp		3.3G		44.9%		2017-01-18
-2_RNA-Seq_Serum_R.fastq.gz	ERR1797969_pass_2.fastq.gz	Reverse		RNA-seq		Paired		
+1_RNA_Illumina_Serum_F.fastq.gz	ERR1797969_pass_1.fastq.gz	Forward		RNA-seq		Paired		25,937,368			5,187,473,600bp		3.3G		44.9%		2017-01-18
+2_RNA_Illumina_Serum_R.fastq.gz	ERR1797969_pass_2.fastq.gz	Reverse		RNA-seq		Paired		
 
 
 /proj/g2018003/nobackup/private/zhang_2017/RNA_trimmed_reads	Data: TRIMMED	Platform: Illumina HiSeq 2500
