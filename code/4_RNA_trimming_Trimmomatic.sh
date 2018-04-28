@@ -12,4 +12,4 @@ module load bioinfo-tools trimmomatic
 
 trimmomatic PE -threads 1 -phred64 /home/inod5951/GA_Project/data/raw_data/RNA/Illumina/1_RNA_Illumina_Serum_F.fastq.gz /home/inod5951/GA_Project/data/raw_data/RNA/Illumina/2_RNA_Illumina_Serum_R.fastq.gz \
 /home/inod5951/GA_Project/data/trimmed_data/RNA/Illumina/out_F_paired.fastq.gz /home/inod5951/GA_Project/data/trimmed_data/RNA/Illumina/out_F_unpaired_fastq.gz /home/inod5951/GA_Project/data/trimmed_data/RNA/Illumina/out_R_paired.fastq.gz /home/inod5951/GA_Project/data/trimmed_data/RNA/Illumina/out_R_unpaired.fastq.gz \
-
+ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:30:10
