@@ -1,4 +1,5 @@
 
+
 Species: Enterococcus_faecium_E745						
 
 OWN FILES: 
@@ -27,17 +28,17 @@ File name				File name (Original)			Strategy	Layout		Spots(Read count)          
 					trim_ERR1801012_pass.fastq.gz
 					trim_ERR1801013_pass.fastq.gz
 					trim_ERR1801014_pass.fastq.gz
-RNA_trimmed_p_F_Serum2.fastq.gz		trim_paired_ERR1797970_pass_1.fastq.gz	
-RNA_trimmed_p_R_Serum2.fastq.gz		trim_paired_ERR1797970_pass_2.fastq.gz
-RNA_trimmed_p_F_Serum3.fastq.gz		trim_paired_ERR1797971_pass_1.fastq.gz
-RNA_trimmed_p_R_Serum3.fastq.gz		trim_paired_ERR1797971_pass_2.fastq.gz
-RNA_trimmed_p_F_BHI1.fastq.gz		trim_paired_ERR1797972_pass_1.fastq.gz
-RNA_trimmed_p_R_BHI1.fastq.gz		trim_paired_ERR1797972_pass_2.fastq.gz
-RNA_trimmed_p_F_BHI2.fastq.gz		trim_paired_ERR1797973_pass_1.fastq.gz
-RNA_trimmed_p_R_BHI2.fastq.gz		trim_paired_ERR1797973_pass_2.fastq.gz
-RNA_trimmed_p_F_BHI3.fastq.gz		trim_paired_ERR1797974_pass_1.fastq.gz
-RNA_trimmed_p_R_BHI3.fastq.gz		trim_paired_ERR1797974_pass_2.fastq.gz
-(The ones trimmed by myself: RNA_trimmed_p_F/R_Serum1.fq.gz)
+RNA_trimmed_p_Serum2_F.fastq.gz		trim_paired_ERR1797970_pass_1.fastq.gz	
+RNA_trimmed_p_Serum2_R.fastq.gz		trim_paired_ERR1797970_pass_2.fastq.gz
+RNA_trimmed_p_Serum3_F.fastq.gz		trim_paired_ERR1797971_pass_1.fastq.gz
+RNA_trimmed_p_Serum3_R.fastq.gz		trim_paired_ERR1797971_pass_2.fastq.gz
+RNA_trimmed_p_BHI1_F.fastq.gz		trim_paired_ERR1797972_pass_1.fastq.gz
+RNA_trimmed_p_BHI1_R.fastq.gz		trim_paired_ERR1797972_pass_2.fastq.gz
+RNA_trimmed_p_BHI2_F.fastq.gz		trim_paired_ERR1797973_pass_1.fastq.gz
+RNA_trimmed_p_BHI2_R.fastq.gz		trim_paired_ERR1797973_pass_2.fastq.gz
+RNA_trimmed_p_BHI3_F.fastq.gz		trim_paired_ERR1797974_pass_1.fastq.gz
+RNA_trimmed_p_BHI3_R.fastq.gz		trim_paired_ERR1797974_pass_2.fastq.gz
+(The ones trimmed by myself: RNA_trimmed_p_Serum1_F/R.fq.gz)
 
 
 ARTICLE: 
