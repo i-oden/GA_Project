@@ -3,7 +3,7 @@
 #SBATCH -A g2018003
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 02:00:00
+#SBATCH -t 10:00:00
 #SBATCH -J 6_RNAmapping_BWA
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user ina.oden_osterbo.5951@student.uu.se
