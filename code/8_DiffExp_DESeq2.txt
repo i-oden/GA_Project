@@ -1,0 +1,50 @@
+directory <- "/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature_count/"
+
+sampleFiles <- grep("txt",list.files(directory),value=TRUE)
+
+sampleCondition <- c("BHI","BHI","BHI","Serum","Serum","Serum")
+
+sampleTable <- data.frame(sampleName = sampleFiles,
+			  fileName = sampleFiles,
+			  condition = sampleCondition)
+
+library("DESeq2")
+
+ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
+                                       directory = directory,
+                                       design= ~ condition)
+
+ddsHTSeq
+
+keep <- rowSums(counts(ddsHTSeq)) >= 1
+
+dds <- ddsHTSeq[keep,]
+
+dds$condition <- factor(dds$condition, levels = c("BHI","Serum"))
+
+dds <- DESeq(dds)
+
+res <- results(dds)
+
+res
+
+---------------------------------------------------------------------------------------------------
+
+Log fold change shrinkage for visualisation and ranking
+> resultsNames(dds)
+[1] "Intercept"              "condition_Serum_vs_BHI"
+
+resLFC <- lfcShrink(dds,coef="condition_Serum_vs_BHI")
+
+---------------------------------------------------------------------------------------------------
+
+res_subset=subset(res,padj<0.05)
+
+res_ordered_diff <- res_subset[order(res_subset$log2FoldChange),]
+
+> res_ordered <- res_subset[order(res_subset$padj),]
+
+write.xlsx2(res_ordered_diff,file="/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature
+write.xlsx2(res_ordered,file="/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature_count
+write.xlsx2(res_subset,file="/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature_count/> 
+
