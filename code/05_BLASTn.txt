@@ -1,0 +1,13 @@
+# BLASTn against E. durans and E. faecalis. 
+
+makeblastdb -dbtype nucl -in efaecialis_ref.fasta;
+
+makeblastdb -dbtype nucl -in edurans_ref.fasta;
+
+blastn -outfmt 6 -out blast_efaecialis -evalue 1e-3 \
+-query /home/inod5951/GA_Project/data/assembled_data/DNA/PacBio/efaecium.contigs.fasta \
+-db /home/inod5951/GA_Project/data/reference_data/efaecialis/efaecialis_ref.fasta;
+
+lastn -outfmt 6 -out blast_efaecialis -evalue 1e-3 \
+-query /home/inod5951/GA_Project/data/assembled_data/DNA/PacBio/efaecium.contigs.fasta \
+-db /home/inod5951/GA_Project/data/reference_data/edurans/edurans_ref.fasta;

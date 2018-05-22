@@ -1,0 +1,6 @@
+# Annotation using prokka. 
+
+prokka --outdir /home/inod5951/GA_Project/data/annotated_data/Prokka/ --prefix efaecium_annot \ 
+/home/inod5951/GA_Project/data/assembled_data/DNA/PacBio/efaecium.contigs.fasta
+
+# This code was also used (but edited) when annotating the chromosome sequence only.

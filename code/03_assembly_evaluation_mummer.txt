@@ -1,0 +1,11 @@
+# Originally, the idea was to use mummer all the way, as a complement to quast,
+# however since mummer was unable to run, nucmer was used, followed by the use of mummerplot
+
+# concat.fasta: The reference genome, including chromosome and plasmids
+# efaecium.contigs.fasta: My assembled genome.
+
+nucmer --mum /home/inod5951/GA_Project/data/assembled_data/DNA/Reference/concat.fasta \
+/home/inod5951/GA_Project/data/raw_data/DNA/PacBio/efaecium.contigs.fasta;
+
+# Visualisation
+mummerplot -postscript out.delta

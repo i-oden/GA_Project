@@ -1,0 +1,12 @@
+# The following commands were run locally
+# The evaluation of the assembly was performed with QUAST
+# The evaluation was first performed without a reference, however the used evaluation results
+# are from the evaluation using the reference genome of E. faecium from ncbi.
+
+# ORIGINAL - NO REFERENCE
+quast -o /home/inus/GA_Project/data/assembled_data/DNA/PacBio/QUAST_eval \
+/home/inus/GA_Project/data/assembled_data/DNA/PacBio/efaecium.contigs.fasta;
+
+# WITH REFERENCE
+quast -o /home/inus/GA_Project/data/assembled_data/DNA/PacBio/QUAST_eval/with_reference \
+/home/inus/GA_Project/data/assembled_data/DNA/PacBio/efaecium.contigs.fasta;

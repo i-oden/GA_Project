@@ -1,3 +1,5 @@
+# Differential expression analysis in DESeq2 (R)
+
 directory <- "/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature_count/"
 
 sampleFiles <- grep("txt",list.files(directory),value=TRUE)
@@ -30,7 +32,7 @@ res
 
 ---------------------------------------------------------------------------------------------------
 
-Log fold change shrinkage for visualisation and ranking
+# Log fold change shrinkage for visualisation and ranking
 > resultsNames(dds)
 [1] "Intercept"              "condition_Serum_vs_BHI"
 
@@ -38,13 +40,11 @@ resLFC <- lfcShrink(dds,coef="condition_Serum_vs_BHI")
 
 ---------------------------------------------------------------------------------------------------
 
-res_subset=subset(res,padj<0.05)
+# Only saved the significant hits. The significance level was set to alpha=0.001, as in the article
+res_subset=subset(res,padj<0.001)
 
+# Ordering the significant results according to their log2fold change.
 res_ordered_diff <- res_subset[order(res_subset$log2FoldChange),]
 
-> res_ordered <- res_subset[order(res_subset$padj),]
-
-write.xlsx2(res_ordered_diff,file="/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature
-write.xlsx2(res_ordered,file="/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature_count
-write.xlsx2(res_subset,file="/home/inod5951/GA_Project/data/mapped_data/RNA/Illumina/feature_count/> 
-
+# Ordering the significant results according to their adjusted p value.
+res_ordered <- res_subset[order(res_subset$padj),]
